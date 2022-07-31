@@ -86,6 +86,9 @@ const Tasks = () => {
       <Text mt={4} fontSize="2xl" fontWeight="bold">
         Tasks
       </Text>
+      <Text my={2}>
+        Double Click <b>Task Status</b> to change it.
+      </Text>
       <TaskTable taskList={filteredTasks} columns={columns} />
     </>
   );

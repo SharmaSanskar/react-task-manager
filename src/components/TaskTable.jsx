@@ -67,7 +67,7 @@ const TaskTable = ({ taskList, columns }) => {
               <Td>
                 <Button
                   onDoubleClick={() => handleStatusChange(task.id, task.status)}
-                  colorScheme={task.status === "Open" ? "green" : "red"}
+                  colorScheme={task.status === "Open" ? "teal" : "red"}
                   variant="ghost"
                   size="sm"
                 >

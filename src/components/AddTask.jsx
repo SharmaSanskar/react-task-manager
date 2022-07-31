@@ -8,7 +8,9 @@ const AddTask = () => {
 
   return (
     <>
-      <Button onClick={onOpen}>Add Task</Button>
+      <Button colorScheme="teal" onClick={onOpen}>
+        Add Task
+      </Button>
       <TaskModal isOpen={isOpen} onClose={onClose} />
     </>
   );
